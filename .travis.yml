@@ -21,7 +21,4 @@ script:
   - cd decide
   - coverage run --branch --source=. ./manage.py test --keepdb 
   - coverage xml
-  - python3 manage.py migrate
-  - python3 manage.py test
-
 
